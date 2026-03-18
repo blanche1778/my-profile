@@ -1,0 +1,78 @@
+ body {
+	background-color: #FE9EC7;
+	color: #F9F6C4;
+	font-family: Times New Roman;
+	letter-spacing: 1px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+  .container{
+    width: 400px;
+  }
+}
+
+.profile-pic {
+  width: 17%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+h1 { 
+	color: #8494FF;
+	font-family: Georgia;
+  text-align: center;
+}
+
+h2 { 
+  color: #F9F6C4;
+  font-family: new Roman;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.card {
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 28px;
+	background: #FE9EC7;
+	padding: 20px;
+	margin-bottom: 35px;
+	box-shadow: 0px 10px 30px purple;
+	border-radius: 4px;
+}
+
+a {
+	text-decoration: none;
+	color: #FFDBFD;
+	transition: color 0.3s ease;
+}
+
+.btn-purple a {
+  text-align: center;
+  display: grid;               
+  padding: 15px 30px;
+  margin: 50px;                 
+  background-color: purple;            
+  color: #FFDBFD;                      
+  font-size: 30px;                     
+  font-weight: bold;
+  border-radius: 10px;                 
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.3); 
+  text-decoration: none;              
+  }  
+
+       
